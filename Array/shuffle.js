@@ -26,7 +26,6 @@ function shuffleArray(arr) {
 console.log(shuffleArray(arr1)); // [27, 3, 8, 110, 5, 86, 19, 4, 52, 1]
 
 
-
 const myNumbers = (array)=>{
         for(let i= array.length-1;i>0;i--){
                 let j = Math.floor(Math.random()* i+1)
